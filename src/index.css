@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-draw-toolbar a {
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.leaflet-draw-toolbar a:hover {
+  background-color: #f8fafc;
+}
+
+.leaflet-draw-actions a {
+  background-color: white;
+  color: #1e40af;
+  font-weight: 500;
+}
+
+.leaflet-draw-actions a:hover {
+  background-color: #f8fafc;
+}
